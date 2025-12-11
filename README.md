@@ -1,8 +1,3 @@
-README.md
-FastPrompt-TP — Proof of Concept (POC)
-Optimización de contenido de marketing para un servicio de Traducción Pública EN<>ES usando Fast Prompting
-Introducción
-
 Este proyecto presenta una Proof of Concept (POC) que demuestra cómo aplicar técnicas de Fast Prompting para automatizar y optimizar la generación de contenidos de marketing para un servicio profesional de Traducción Pública EN<>ES (Latinoamérica).
 
 Se utiliza una Jupyter Notebook para mostrar cómo un solo prompt estructurado puede producir en una única llamada a la API todo un paquete profesional de contenidos comunicacionales: descripción del servicio, propuestas de valor, copies para redes sociales, CTAs y un email tipo para cotizar.
