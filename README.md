@@ -1,25 +1,23 @@
 README.md
 FastPrompt-TP — Proof of Concept (POC)
 Optimización de contenido de marketing para un servicio de Traducción Pública EN<>ES usando Fast Prompting
-📌 Introducción
+Introducción
 
 Este proyecto presenta una Proof of Concept (POC) que demuestra cómo aplicar técnicas de Fast Prompting para automatizar y optimizar la generación de contenidos de marketing para un servicio profesional de Traducción Pública EN<>ES (Latinoamérica).
 
 Se utiliza una Jupyter Notebook para mostrar cómo un solo prompt estructurado puede producir en una única llamada a la API todo un paquete profesional de contenidos comunicacionales: descripción del servicio, propuestas de valor, copies para redes sociales, CTAs y un email tipo para cotizar.
 
-🎯 Nombre del proyecto
+Nombre del proyecto
 
 FastPrompt-TP (Traductora Pública EN<>ES)
 Automatización de textos de marketing con Fast Prompting.
 
-❗ Presentación del problema
+Presentación del problema
 
 Los traductores públicos necesitan generar contenido de marketing (copys, propuestas de valor, CTAs, mensajes para clientes, plantillas de respuesta) de forma rápida, coherente y profesional.
-Sin embargo:
+Sin embargo: Crear estos textos manualmente consume tiempo.
 
-Crear estos textos manualmente consume tiempo.
-
-Los modelos de IA, si se usan sin optimización, requieren muchas consultas, encareciendo el proceso.
+Los modelos de IA, si se usan sin optimización, requieren muchas consultas, y encarecen el proceso.
 
 Repetir tareas similares aumenta la cantidad de prompts y, por ende, los tokens y el costo.
 
@@ -29,7 +27,7 @@ Problema seleccionado:
 Relevancia:
 Optimizar este proceso permite que profesionales independientes reduzcan tiempos, costos y carga operativa, aumentando la rentabilidad del uso de IA.
 
-💡 Propuesta de solución
+Propuesta de solución:
 
 Se propone una solución basada en Fast Prompting:
 
@@ -47,7 +45,7 @@ Minimizar el costo agrupando tareas y evitando múltiples llamadas.
 
 La POC permite demostrar cómo una sola consulta puede reemplazar procesos lentos y costosos.
 
-📎 Prompts utilizados
+Prompts utilizados
 Prompt Maestro (estructura Fast Prompting)
 
 Incluye: contexto / rol / tarea / formato / tono.
@@ -55,7 +53,7 @@ Se utiliza un template que recibe un brief del cliente y produce un JSON con tod
 
 El prompt se encuentra dentro de la notebook y también en la carpeta de prompts/.
 
-🔧 Justificación de la viabilidad
+Justificación de la viabilidad:
 
 Técnica: el proyecto usa Python, Jupyter y la API de un LLM. Todo es liviano, portable y fácil de reproducir.
 
@@ -65,7 +63,7 @@ Tiempo: puede implementarse en 1–2 semanas como POC funcional.
 
 Recursos: no requiere infraestructura compleja. Cualquier computadora que corra Python es suficiente.
 
-🎯 Objetivos
+Objetivos
 
 General: demostrar cómo Fast Prompting reduce costos y tiempo en la generación de contenido profesional.
 
@@ -79,7 +77,7 @@ Documentar estrategias de minimización de llamadas.
 
 Estimar costos y analizar viabilidad económica.
 
-🧪 Metodología
+Metodología
 
 Identificación del input mínimo: brief del cliente.
 
@@ -93,7 +91,7 @@ Evaluación de costos.
 
 Documentación del pipeline en Jupyter.
 
-🧰 Herramientas y tecnologías
+Herramientas y tecnologías
 
 Python 3.x
 
@@ -117,7 +115,7 @@ Batching / variaciones múltiples
 
 JSON-structured prompting
 
-💻 Implementación
+Implementación
 
 La notebook FastPrompt_TP_POC.ipynb contiene:
 
@@ -135,7 +133,7 @@ Reflexión final
 
 Todo está optimizado para ser simple, claro y eficiente.
 
-📊 Costos y optimización
+Costos y optimización
 
 La notebook incluye funciones para estimar:
 
@@ -149,7 +147,7 @@ Impacto de batching y técnicas de Fast Prompting
 
 Se prioriza siempre minimizar la cantidad de llamadas.
 
-📁 Estructura del repositorio
+Estructura del repositorio
 fastprompt-tp/
 ├─ README.md
 ├─ notebook/
@@ -161,7 +159,7 @@ fastprompt-tp/
 └─ docs/
    └─ metodologia.md
 
-✔️ Conclusión
+Conclusión
 
 Este proyecto demuestra cómo Fast Prompting puede transformar tareas repetitivas en procesos automáticos, eficientes y rentables.
-La POC valida que es posible generar contenido profesional de marketing para un servicio de Traducción Pública EN<>ES en una sola llamada, reduciendo costos e incrementando la productividad del profesional.
+La POC valida que es posible generar contenido profesional de marketing para un servicio de Traducción Pública EN<>ES en una sola llamada, reduciendo costos e incrementando la productividad del profesional, (en este caso, yo misma).
